@@ -100,11 +100,11 @@ function some(a){
 }
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS", "HTML"], "HTML"),
     new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
     new Question("Why did Mark choose blue color for facebook", ["He was color blind", "He did not like other colors","Board members decision", "Took a lucky dip from 10 different colors"], "He was color blind"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("How much time did it take for the first photograph to expose", ["4 hours", "6 hours", "8 hours", "10 hours"], "8 hours")
+    new Question("How much time did it take for the first photograph to expose", ["4 hours", "6 hours", "8 hours", "10 hours"], "8 hours"),
+    new Question("Question4", ["option1", "option2", "option3", "option4"], "correctoption"),
+    new Question("Question4", ["option1", "option2", "option3", "option4"], "correctoption")
 ];
  
 // create quiz
